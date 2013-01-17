@@ -1,0 +1,17 @@
+name: EventTP
+main: com.github.PhoenixReborn.EventTP.EventTP
+version: 1.0
+author: Polaris120990
+commands:
+  openevent:
+    description: This command opens an event that players can join.
+    usage: /<command> [message]
+    permission: <plugin name>.open
+  closeevent:
+    description: This command closes an event if there is one currently open.
+    usage: /<command>
+    permission: <plugin name>.close
+  joinevent:
+    description: This command teleports a player to the location of an event.
+    usage: /<command>
+    permission: <plugin name>.join
