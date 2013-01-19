@@ -46,6 +46,7 @@ public class EventTPCommandExecutor implements CommandExecutor
 						player.sendMessage(ChatColor.RED + "There is already an event going on. Please finish it before starting another!");
 					}
 				}
+				else player.sendMessage(ChatColor.RED + "You do not have permission to use this command!");
 			}
 			else
 			{
@@ -73,6 +74,7 @@ public class EventTPCommandExecutor implements CommandExecutor
 						player.sendMessage(ChatColor.RED + "There are no events to close!");
 					}
 				}
+				else player.sendMessage(ChatColor.RED + "You do not have permission to use this command!");
 			}
 			else
 			{
@@ -98,6 +100,7 @@ public class EventTPCommandExecutor implements CommandExecutor
 						player.sendMessage(ChatColor.RED + "There are no events going on at the moment.");
 					}
 				}
+				else player.sendMessage(ChatColor.RED + "You do not have permission to use this command!");
 			}
 			else
 			{

@@ -1,6 +1,6 @@
 name: EventTP
 main: com.github.PhoenixReborn.EventTP.EventTP
-version: 1.0
+version: 1.01
 author: Polaris120990
 commands:
   openevent:
@@ -15,3 +15,10 @@ commands:
     description: This command teleports a player to the location of an event.
     usage: /<command>
     permission: <plugin name>.join
+permissions:
+  eventtp.open:
+    description: Allows use of the openevent command.
+  eventtp.close:
+    description: Allows use of the closeevent command.
+  eventtp.join:
+    description: Allows use of the joinevent command.
